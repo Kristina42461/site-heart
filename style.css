@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(rgb(132, 132, 235), pink);
+    padding-top: 10px;
+}
+nav ul{
+    display: flex;
+    margin-top: 30px;
+}
+
+nav ul li{
+    margin-left: 30px;
+    list-style: none;
+    
+}
+nav ul li a{
+    padding: 0 20px;
+}
+.logo{
+    max-width: 200px;
+    text-align: center;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: all 300ms ease-in-out;
+    background-color: rgb(239, 233, 229);
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 210px;
+}
+.box img{
+    margin: 0 110px;
+}
+
+.items:first-child{
+    padding-bottom: 90px;
+}
+
+.items:last-child{
+    padding-top: 90px;
+}
+
+.items h3{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.items h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.infografika{
+    width: 1170px;
+height: 309px;
+flex-shrink: 0;
+display: flex;
+background: linear-gradient(rgb(132, 132, 235), pink);
+justify-content: center;
+margin: 0 auto;
+justify-content: space-around;
+}
+
+.infografika .card{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.infografika .card img{
+    margin-bottom: 20px;
+}
+
+.infografika .card h1{
+    margin-bottom: 10px;
+}
+.gallery{
+    width: 1590px;
+height: 2722px;
+margin: 0 auto;
+}
+
+.line-1{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.line-1, .line-2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ca0d0d;
+    padding: 20px;
+}
+.group{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.group img{
+    margin-right: 50px;
+    z-index: 10;
+}
+
+.group h1{
+    background-color: #ab6565;
+    padding-left: 40px;
+    position: absolute;
+    left: 90px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+}
